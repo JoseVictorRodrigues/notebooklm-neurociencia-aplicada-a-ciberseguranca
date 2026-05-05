@@ -200,6 +200,15 @@ O cérebro tende a agir de forma rápida e automática, e isso é explorado em g
 
 ---
 
+## Material complementar
+
+Durante o desenvolvimento do projeto, também foi gerado um relatório mais aprofundado utilizando o NotebookLM:
+
+👉 [Acessar relatório completo](./report-notebooklm.md)
+
+Esse material explora de forma mais técnica conceitos como vieses cognitivos, ataques modernos e estratégias de defesa.
+
+
 ## Conclusão
 
 A principal conclusão é que a segurança digital não é apenas um problema técnico.

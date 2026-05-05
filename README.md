@@ -111,3 +111,74 @@ O cérebro tende a agir de forma rápida e automática, e isso pode ser explorad
 A principal conclusão é que a segurança digital não é apenas um problema técnico.
 
 O comportamento humano tem um papel central, e entender isso é essencial para reduzir riscos no ambiente digital.
+
+
+
+## Curadoria de fontes
+
+Para desenvolver este estudo, foram utilizadas 35 fontes no NotebookLM, incluindo materiais técnicos, acadêmicos e institucionais.
+
+Abaixo estão algumas das principais referências organizadas por tipo:
+
+### Documentos oficiais
+
+* https://www.gov.br/abin/pnpc
+* https://www.cisa.gov/uscert/ncas/tips/ST04-014
+* https://www.ftc.gov/business-guidance/privacy-data-security
+
+Essas fontes ajudaram a entender como órgãos oficiais tratam engenharia social e segurança da informação.
+
+---
+
+### Referências gerais
+
+* https://pt.wikipedia.org/wiki/Engenharia_social_(segurança)
+* https://pt.wikipedia.org/wiki/Comportamento_humano
+* https://pt.wikipedia.org/wiki/Análise_do_comportamento
+
+Foram utilizadas para contextualizar conceitos básicos de comportamento humano e engenharia social.
+
+---
+
+### Artigos acadêmicos e repositórios
+
+* https://repositorio-aberto.up.pt/bitstream/10216/145534/2/592184.pdf
+* https://repositorio.bc.ufg.br/handle/ri/20926
+* https://repositorio.ufc.br/bitstream/riufc/49703/1/2019_tcc_ipsilva.pdf
+
+Esses materiais contribuíram para uma visão mais aprofundada sobre comportamento e segurança.
+
+---
+
+### Tecnologia e segurança digital
+
+* https://www.ibm.com/br-pt/topics/phishing
+* https://hoxhunt.com/blog/security-awareness-not-reducing-risk
+* https://www.migalhas.com.br/depeso/357488/phishing-vishing-e-smishing-o-que-sao-esses-golpes
+
+Foram usados para entender ameaças atuais e práticas do mercado.
+
+---
+
+### Neurociência e comportamento
+
+* https://meucerebro.com/como-o-cerebro-toma-decisoes/
+* https://www.psychologytoday.com/...
+* https://online.pucrs.br/blog/neurociencia-e-psicologia-guia-comportamento-humano
+
+Essas fontes ajudaram a conectar processos mentais com decisões em ambientes digitais.
+
+---
+
+### Relatórios e pesquisas
+
+* https://www.europol.europa.eu/...
+* https://www.amnesty.org/...
+* https://arxiv.org/...
+
+Utilizados para trazer dados recentes e tendências sobre segurança e comportamento.
+
+---
+
+Ao longo do projeto, essas fontes foram analisadas no NotebookLM para gerar respostas, comparações e insights, permitindo uma visão mais integrada entre tecnologia e comportamento humano.
+

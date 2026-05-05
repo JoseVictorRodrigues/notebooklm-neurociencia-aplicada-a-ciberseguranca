@@ -1,53 +1,136 @@
-# neurociencia-ciberseguranca
-Análise da influência de vieses cognitivos e processos mentais na cibersegurança e na vulnerabilidade a ataques digitais.
-
-# Neurociência aplicada à Cibersegurança
+# Neurociência aplicada à cibersegurança
 
 ## Contexto e objetivos
 
 Esse projeto surgiu da ideia de entender melhor por que as pessoas ainda caem em golpes digitais, mesmo com tanta tecnologia de segurança disponível.
 
-Ao invés de olhar só para o lado técnico, eu quis explorar o lado humano da segurança: como o cérebro toma decisões, como emoções influenciam nossas ações e de que forma isso é explorado em ataques como phishing.
+Ao invés de olhar só para o lado técnico, a proposta foi explorar o lado humano da segurança: como o cérebro toma decisões, como emoções influenciam nossas ações e de que forma isso é explorado em ataques como phishing.
 
 Os principais objetivos foram:
 
 * entender como o comportamento humano impacta a segurança digital
 * identificar como golpes exploram emoções e padrões mentais
-* buscar formas de reduzir erros humanos em ambientes digitais
+* analisar como reduzir erros humanos em ambientes digitais
 
 ---
 
 ## Curadoria de fontes
 
-Para desenvolver o estudo, utilizei 35 fontes no NotebookLM.
+Para desenvolver este estudo, foram utilizadas 35 fontes no NotebookLM, incluindo artigos técnicos, estudos acadêmicos e materiais institucionais sobre comportamento humano e segurança digital.
 
-Os conteúdos abordam principalmente:
+### Fontes principais utilizadas
 
-* phishing e engenharia social
-* roubo de identidade
-* uso de inteligência artificial em fraudes (como deepfakes)
-* comportamento humano na tomada de decisão
+As fontes abaixo foram as mais relevantes para a construção do projeto:
+
+* https://www.cisa.gov/uscert/ncas/tips/ST04-014
+* https://www.ibm.com/br-pt/topics/phishing
+* https://pt.wikipedia.org/wiki/Engenharia_social_(segurança)
+* https://meucerebro.com/como-o-cerebro-toma-decisoes/
+* https://repositorio-aberto.up.pt/bitstream/10216/145534/2/592184.pdf
+
+Essas referências foram fundamentais para entender a relação entre engenharia social, comportamento humano e tomada de decisão.
+
+---
+
+### Outras fontes utilizadas
+
+Além das principais, outras fontes foram analisadas para complementar o estudo:
+
+#### Documentos oficiais
+
+* https://www.gov.br/abin/pnpc
+* https://www.ftc.gov/business-guidance/privacy-data-security
+
+#### Referências gerais
+
+* https://pt.wikipedia.org/wiki/A_Arte_de_Enganar
+* https://pt.wikipedia.org/wiki/Análise_do_comportamento
+* https://pt.wikipedia.org/wiki/Comportamento_humano
+* https://pt.wikipedia.org/wiki/Engenharia_social_(ciência_política)
+
+#### Artigos acadêmicos e repositórios
+
+* https://repositorio.bc.ufg.br/handle/ri/20926
+* https://repositorio.ufersa.edu.br/content
+* https://adelpha-api.mackenzie.br/content
+* https://repositorio.ufc.br/bitstream/riufc/49703/1/2019_tcc_ipsilva.pdf
+* http://bia.ifpi.edu.br:8080/jspui/bitstream/123456789/1781/1/2023_tcc_frcsilva.pdf
+
+#### Filosofia e comportamento
+
+* https://plato.stanford.edu/entries/hume-moral
+* https://plato.stanford.edu/archives/fall2024/entries/kant-moral/
+
+#### Tecnologia e segurança
+
+* https://hoxhunt.com/blog/security-awareness-not-reducing-risk
+* https://hoxhunt.com/blog/unprecedented-400-percent-us-tax-phishing-campaign-surge
+* https://starti.com.br/blog
+* https://www.dentsu.com/2026-media-trends
+* https://www.migalhas.com.br/depeso/357488/phishing-vishing-e-smishing-o-que-sao-esses-golpes
+
+#### Neurociência e comportamento
+
+* https://www.psychologytoday.com/us/blog/parenting-neuroscience-perspective/202403/how-your-environment-shapes-your-habits
+* https://online.pucrs.br/blog/neurociencia-e-psicologia-guia-comportamento-humano
+* https://eduvem.com/blog/tomada-de-decisao-e-cerebro-vieses-cognitivos-lideranca/
+
+#### Relatórios e inteligência
+
+* https://www.europol.europa.eu/newsroom/news/new-2026-iocta-highlights-sophisticated-tactics
+* https://www.amnesty.org/en/latest/news/2021/07/the-pegasus-project/
+* https://security.berkeley.edu/resources/phish-tank
+
+#### Artigos científicos
+
+* https://www.researchgate.net/publication/389274798_Ethical_AI_and_Privacy_Protection
+* https://arxiv.org/html/2507.07406v1
+* https://www.sciencedirect.com/science/article/pii/S0164121223002947
+
+---
+
+Ao longo do projeto, essas fontes foram utilizadas no NotebookLM para gerar respostas, comparar informações e construir uma visão integrada entre neurociência e cibersegurança.
 
 ---
 
 ## Engenharia de prompts e aprendizados
 
-Durante o uso do NotebookLM, percebi que a forma como a pergunta é feita muda completamente a qualidade da resposta.
+Durante o uso do NotebookLM, ficou claro que a forma como a pergunta é feita influencia diretamente a qualidade da resposta.
 
-Comecei com uma pergunta mais direta:
+### Exemplo de evolução de prompt
 
-“Como o cérebro humano influencia decisões em segurança digital?”
+**Prompt inicial:**
+"Como o cérebro humano influencia decisões em segurança digital?"
 
-A resposta foi boa, mas muito geral.
+**Problema:**
+A resposta foi correta, mas muito geral e pouco aplicada.
 
-Quando pedi explicações com exemplos práticos, o conteúdo ficou muito mais claro e aplicável.
+**Refinamento:**
+"Explique como o cérebro influencia decisões em segurança digital com exemplos práticos de phishing"
 
-Também tentei juntar vários comandos em um único prompt (explicar, resumir e simplificar ao mesmo tempo), e isso fez com que o sistema não respondesse.
+**Resultado:**
+A resposta ficou mais clara, trazendo situações reais e facilitando o entendimento.
 
-A partir disso, passei a dividir as perguntas em etapas:
-primeiro entender, depois aprofundar, e por fim resumir.
+---
 
-Isso melhorou bastante os resultados.
+### Teste de prompts complexos
+
+Também foi feito um teste utilizando múltiplos comandos ao mesmo tempo, como explicar melhor, resumir e simplificar para iniciantes.
+
+Durante esse teste, houve uma falha na resposta, que posteriormente identifiquei como um problema de conexão e não do sistema em si.
+
+Mesmo assim, o experimento mostrou que prompts muito carregados podem dificultar a interpretação e a qualidade das respostas.
+
+A partir disso, passei a dividir as perguntas em etapas, o que melhorou significativamente os resultados.
+
+---
+
+### Principais aprendizados
+
+* prompts mais específicos geram respostas melhores
+* dividir perguntas em etapas melhora o resultado
+* exemplos práticos aumentam a compreensão
+* testar diferentes abordagens faz parte do processo
 
 ---
 
@@ -57,22 +140,22 @@ Isso melhorou bastante os resultados.
 
 A segurança digital não depende apenas de tecnologia, mas também da forma como as pessoas pensam e tomam decisões.
 
-O cérebro tende a agir de forma rápida e automática, e isso pode ser explorado em golpes digitais.
+O cérebro tende a agir de forma rápida e automática, e isso é explorado em golpes digitais que utilizam urgência, medo e recompensa para induzir decisões impulsivas.
 
 ---
 
 ### Como o comportamento é explorado
 
-* decisões impulsivas
+* decisões rápidas sem análise
 * influência de emoções como medo e urgência
-* confiança em marcas e autoridades
-* busca por recompensa
+* confiança em autoridades e marcas conhecidas
+* busca por recompensa imediata
 
 ---
 
 ### Vieses cognitivos
 
-* autoridade
+* viés de autoridade
 * aversão à perda
 * efeito de familiaridade
 * excesso de confiança
@@ -90,19 +173,30 @@ O cérebro tende a agir de forma rápida e automática, e isso pode ser explorad
 
 ### Como reduzir erros
 
-* pausar antes de agir
-* usar autenticação em duas etapas
-* criar hábitos digitais mais seguros
-* desconfiar de mensagens urgentes
+* pausar antes de clicar ou agir
+* usar autenticação em duas etapas (MFA)
+* evitar reutilização de senhas
+* desconfiar de mensagens urgentes ou emocionais
 
 ---
 
-### Prompts úteis
+### Glossário
+
+* Engenharia social: manipulação psicológica para obter informações
+* Phishing: tentativa de enganar usuários para roubar dados
+* Viés cognitivo: padrão de pensamento que pode levar a erros de decisão
+* Fadiga cognitiva: cansaço mental que afeta a capacidade de análise
+* MFA: método de segurança que exige mais de uma forma de verificação
+
+---
+
+### Prompts reutilizáveis
 
 * explique com exemplos práticos
 * resuma em tópicos
 * explique como se eu fosse iniciante
-* compare teoria com prática
+* compare teoria com situações reais
+* liste riscos e soluções
 
 ---
 
@@ -110,75 +204,11 @@ O cérebro tende a agir de forma rápida e automática, e isso pode ser explorad
 
 A principal conclusão é que a segurança digital não é apenas um problema técnico.
 
-O comportamento humano tem um papel central, e entender isso é essencial para reduzir riscos no ambiente digital.
-
-
-
-## Curadoria de fontes
-
-Para desenvolver este estudo, foram utilizadas 35 fontes no NotebookLM, incluindo materiais técnicos, acadêmicos e institucionais.
-
-Abaixo estão algumas das principais referências organizadas por tipo:
-
-### Documentos oficiais
-
-* https://www.gov.br/abin/pnpc
-* https://www.cisa.gov/uscert/ncas/tips/ST04-014
-* https://www.ftc.gov/business-guidance/privacy-data-security
-
-Essas fontes ajudaram a entender como órgãos oficiais tratam engenharia social e segurança da informação.
+O comportamento humano tem um papel central nesse processo, e entender como as pessoas pensam pode ser tão importante quanto qualquer ferramenta de proteção.
 
 ---
 
-### Referências gerais
+## Aplicação prática
 
-* https://pt.wikipedia.org/wiki/Engenharia_social_(segurança)
-* https://pt.wikipedia.org/wiki/Comportamento_humano
-* https://pt.wikipedia.org/wiki/Análise_do_comportamento
-
-Foram utilizadas para contextualizar conceitos básicos de comportamento humano e engenharia social.
-
----
-
-### Artigos acadêmicos e repositórios
-
-* https://repositorio-aberto.up.pt/bitstream/10216/145534/2/592184.pdf
-* https://repositorio.bc.ufg.br/handle/ri/20926
-* https://repositorio.ufc.br/bitstream/riufc/49703/1/2019_tcc_ipsilva.pdf
-
-Esses materiais contribuíram para uma visão mais aprofundada sobre comportamento e segurança.
-
----
-
-### Tecnologia e segurança digital
-
-* https://www.ibm.com/br-pt/topics/phishing
-* https://hoxhunt.com/blog/security-awareness-not-reducing-risk
-* https://www.migalhas.com.br/depeso/357488/phishing-vishing-e-smishing-o-que-sao-esses-golpes
-
-Foram usados para entender ameaças atuais e práticas do mercado.
-
----
-
-### Neurociência e comportamento
-
-* https://meucerebro.com/como-o-cerebro-toma-decisoes/
-* https://www.psychologytoday.com/...
-* https://online.pucrs.br/blog/neurociencia-e-psicologia-guia-comportamento-humano
-
-Essas fontes ajudaram a conectar processos mentais com decisões em ambientes digitais.
-
----
-
-### Relatórios e pesquisas
-
-* https://www.europol.europa.eu/...
-* https://www.amnesty.org/...
-* https://arxiv.org/...
-
-Utilizados para trazer dados recentes e tendências sobre segurança e comportamento.
-
----
-
-Ao longo do projeto, essas fontes foram analisadas no NotebookLM para gerar respostas, comparações e insights, permitindo uma visão mais integrada entre tecnologia e comportamento humano.
+Esse estudo pode ser aplicado em treinamentos de segurança, desenvolvimento de sistemas mais intuitivos e na criação de estratégias que considerem o comportamento humano como fator central da cibersegurança.
 

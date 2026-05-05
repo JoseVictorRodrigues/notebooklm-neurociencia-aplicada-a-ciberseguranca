@@ -208,6 +208,12 @@ Durante o desenvolvimento do projeto, também foi gerado um relatório mais apro
 
 Esse material explora de forma mais técnica conceitos como vieses cognitivos, ataques modernos e estratégias de defesa.
 
+## Evidências do processo
+Alguns registros do uso do NotebookLM durante o desenvolvimento do projeto:
+
+👉 .[Acessar evidências do processo](./assets)
+
+
 
 ## Conclusão
 

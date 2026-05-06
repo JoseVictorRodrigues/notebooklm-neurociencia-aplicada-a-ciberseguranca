@@ -1,6 +1,11 @@
 # Neurociência aplicada à cibersegurança
 
 ## Contexto e objetivos
+Este projeto foi desenvolvido como parte de um desafio prático da DIO com foco no uso do NotebookLM como ferramenta de aprendizagem ativa.
+
+A proposta do desafio é explorar o uso da inteligência artificial para estudar um tema de forma estruturada, aliando pensamento crítico, curadoria de fontes e organização do conhecimento.
+
+Para isso, foi criado um caderno temático no NotebookLM com o tema neurociência aplicada à cibersegurança, buscando entender como o comportamento humano influencia decisões em ambientes digitais e como isso é explorado em ataques como phishing.
 
 Esse projeto surgiu da ideia de entender melhor por que as pessoas ainda caem em golpes digitais, mesmo com tanta tecnologia de segurança disponível.
 

@@ -1,5 +1,7 @@
 # Neurociência aplicada à cibersegurança
 
+NotebookLM - Neurociência aplicada à cibersegurançahttps: //notebooklm.google.com/notebook/9bb0d58c-5cbb-492a-b188-1221d6aaba8d
+
 ## Contexto e objetivos
 Este projeto foi desenvolvido como parte de um desafio prático da DIO com foco no uso do NotebookLM como ferramenta de aprendizagem ativa.
 
